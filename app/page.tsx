@@ -4,6 +4,7 @@ export default function Home() {
   return (
     <div>
       <h1>Jogo da Velha</h1>
+      <h2>jogue com moderação</h2>
       <title>
         Jogo da Velha 
       </title>
