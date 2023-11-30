@@ -26,7 +26,7 @@ export default function Home() {
         </tr>
       </table>
       <button>
-        <a href="http://localhost:3000/">Reiniciar</a>
+        <a href="/">Reiniciar</a>
       </button>
     </div>
   )
