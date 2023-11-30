@@ -25,6 +25,9 @@ export default function Home() {
           <td>X</td>
         </tr>
       </table>
+      <button>
+        <a href="http://localhost:3000/">Reiniciar</a>
+      </button>
     </div>
   )
 }
