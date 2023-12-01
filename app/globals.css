@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: white;
 }
 
 div {
@@ -10,13 +10,13 @@ div {
 }
 
 h1 {
-    color: white;
+    color: black;
     font-size: 35px;
     margin-bottom: 0;
 }
 
 h2 {
-    color: white;
+    color: black;
     font-size: 15px;
 }
 
@@ -46,10 +46,11 @@ td {
     width: 100px;
     height: 100px;
     font-size: 80px;
-    background-color: white;
+    background-color: black;
     margin-top: 100px;
     transition: 0.4s;
     text-align: center;
+    color: white;
 }
 
 td:hover {
@@ -59,6 +60,6 @@ td:hover {
 
 a {
     font-size: 65px;
-    color: white;
+    color: black;
     margin-top: 10px;
 }
