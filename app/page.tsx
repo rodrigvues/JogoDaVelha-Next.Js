@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import { IoMdRefresh } from "react-icons/io";
+
 
 export default function Home() {
   return (
@@ -24,9 +26,7 @@ export default function Home() {
           </tr>
         </tbody>
       </table>
-      <button>
-        <a href="/">Reiniciar</a>
-      </button>
+      <a href="/"> <IoMdRefresh /> </a>
     </div>
   )
 }
