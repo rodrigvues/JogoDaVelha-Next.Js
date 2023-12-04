@@ -28,7 +28,7 @@ export default function Home() {
         </tbody>
       </table>
       <div className='buttom'>
-        <a href="/"> <TiRefresh /> </a>
+        <a  href="/"> <TiRefresh /> </a>
         <a href="/"> <GoHomeFill /> </a>
         <a href="/"> <FaShare /> </a>
       </div>

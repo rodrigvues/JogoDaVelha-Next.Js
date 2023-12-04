@@ -44,6 +44,7 @@ button:hover {
 } */
 
 td {
+    border-radius: 10px;
     width: 100px;
     height: 100px;
     font-size: 80px;
@@ -66,10 +67,13 @@ a {
 }
 
 .buttom{
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     gap: 10px;
     justify-content: center;
     align-items: baseline;
-
+    border-radius: 25px;
+    border-bottom: 5px solid black;
+    box-shadow: 5px 5px lightslategray;
 }
