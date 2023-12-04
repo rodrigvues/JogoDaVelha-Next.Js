@@ -1,6 +1,7 @@
 import Image from 'next/image'
-import { IoMdRefresh } from "react-icons/io";
-
+import { TiRefresh } from "react-icons/ti";
+import { GoHomeFill } from "react-icons/go";
+import { FaShare } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -26,7 +27,11 @@ export default function Home() {
           </tr>
         </tbody>
       </table>
-      <a href="/"> <IoMdRefresh /> </a>
+      <div className='buttom'>
+        <a href="/"> <TiRefresh /> </a>
+        <a href="/"> <GoHomeFill /> </a>
+        <a href="/"> <FaShare /> </a>
+      </div>
     </div>
   )
 }

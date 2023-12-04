@@ -1,5 +1,6 @@
 body {
     background-color: white;
+    font-family: 'Roboto Mono', monospace;
 }
 
 div {
@@ -59,7 +60,16 @@ td:hover {
 }
 
 a {
-    font-size: 65px;
+    font-size: 55px;
     color: black;
     margin-top: 10px;
+}
+
+.buttom{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: baseline;
+
 }
