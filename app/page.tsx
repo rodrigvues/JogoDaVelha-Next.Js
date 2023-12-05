@@ -1,7 +1,7 @@
-import Image from 'next/image'
-import { TiRefresh } from "react-icons/ti";
-import { GoHomeFill } from "react-icons/go";
-import { FaShare } from "react-icons/fa";
+import { BsArrowCounterclockwise } from "react-icons/bs";
+import { BsFillHouseFill } from "react-icons/bs";
+import { BsShare } from "react-icons/bs";
+
 
 export default function Home() {
   return (
@@ -27,10 +27,10 @@ export default function Home() {
           </tr>
         </tbody>
       </table>
-      <div className='buttom'>
-        <a  href="/"> <TiRefresh /> </a>
-        <a href="/"> <GoHomeFill /> </a>
-        <a href="/"> <FaShare /> </a>
+      <div className='button'>
+        <a href="/"><BsArrowCounterclockwise /></a>
+        <a href="/"><BsFillHouseFill /></a>
+        <a href="/"><BsShare /></a>
       </div>
     </div>
   )
