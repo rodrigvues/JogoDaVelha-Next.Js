@@ -1,36 +1,13 @@
-import { BsArrowCounterclockwise } from "react-icons/bs";
-import { BsFillHouseFill } from "react-icons/bs";
-import { BsShare } from "react-icons/bs";
+import Link from "next/link";
+import './style.css'
 
 
-export default function Home() {
-  return (
+export default function Page() {
+  return(
     <div>
+      <div className="titulo">
       <h1>Jogo da Velha</h1>
-      <h2>jogue com moderação</h2>
-      <table>
-        <tbody>
-          <tr>
-            <td>X</td>
-            <td>X</td>
-            <td>X</td>
-          </tr>
-          <tr>
-            <td>X</td>
-            <td>X</td>
-            <td>X</td>
-          </tr>
-          <tr>
-            <td>X</td>
-            <td>X</td>
-            <td>X</td>
-          </tr>
-        </tbody>
-      </table>
-      <div className='button'>
-        <a href="/"><BsArrowCounterclockwise /></a>
-        <a href="/"><BsFillHouseFill /></a>
-        <a href="/"><BsShare /></a>
+      <h2>clique na barra de espaço para jogar</h2>
       </div>
     </div>
   )
