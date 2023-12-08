@@ -22,8 +22,12 @@ export default function Page() {
     };
   }, []); // Sem a dependência router
 
+  function redirecionar() {
+    window.location.href="./jogo"
+  }
+
   return(
-    <div >
+    <div onClick={redirecionar} className="page"> 
       <div className="titulo">
       <h1>Jogo da Velha</h1>
       <h2>clique na barra de espaço para jogar</h2>

@@ -19,12 +19,15 @@ h2 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 25vh;
 }
 
 h2 {
     animation: blink 1s steps(1, end) infinite;
   }
+
+.page {
+  height: 100vh;
+}
   
   @keyframes blink { 
     0% {
