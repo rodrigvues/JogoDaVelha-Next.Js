@@ -13,7 +13,7 @@ export default function Home() {
     navigator.clipboard.writeText(copyText);
   
     // Alert the copied text
-    alert("Link copiado para a área de transferência: " + copyText);
+    alert("Link copiado para a área de transferência: ");
   }
   return (
     <div>
