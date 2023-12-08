@@ -17,7 +17,8 @@ h1 {
 }
 
 h2 {
-    color: black;
+    margin-top: 10px;
+    color: rgb(57, 57, 57);
     font-size: 15px;
 }
 
